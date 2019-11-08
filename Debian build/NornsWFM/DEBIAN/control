@@ -1,0 +1,11 @@
+Package: NornsWFM
+Version: 0.8
+Architecture: all
+Maintainer: Oxbown
+Installed-Size: 6
+Depends: bash , zip , python-pip , pmount
+Section: testing
+Priority: optional
+Homepage: http://askubuntu.com
+Description: This is my first debian package.
+ Guided by Totti Torvalds.

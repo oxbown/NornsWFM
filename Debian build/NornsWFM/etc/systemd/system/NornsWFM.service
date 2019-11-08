@@ -1,0 +1,14 @@
+[Unit]
+Description=Web File Server
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/python /bin/usr/local/NornsWFM/NornsWFM.py
+StandardInput=tty-force
+
+[Install]
+WantedBy=multi-user.target

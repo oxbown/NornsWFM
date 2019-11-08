@@ -1,0 +1,3 @@
+#/bin/bash
+echo installing python libraries
+python -m pip install cherrypy==17.4.2

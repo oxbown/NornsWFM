@@ -1,0 +1,4 @@
+#/bin/bash
+echo Stopping NornsWFM Service
+sudo systemctl disable NornsWFM.service
+sudo systemctl stop NornsWFM.service
